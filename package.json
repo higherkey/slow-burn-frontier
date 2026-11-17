@@ -9,7 +9,7 @@
     "build": "tsc",
     "test": "tsx node_modules/mocha/bin/mocha.js test/**/*.test.ts --timeout 15000 --exit",
     "client:dev": "vite src/client",
-    "client:build": "vite build src/client"
+    "client:build": "vite build --config vite.config.ts --base ./ src/client"
   },
   "dependencies": {
     "@colyseus/schema": "^5.0.48",
