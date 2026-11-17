@@ -72,6 +72,38 @@ html, body {
   gap: 2px;
 }
 
+.hud-title-row {
+  display: flex;
+  align-items: center;
+}
+
+.hud-studio-back {
+  font-size: 0.65rem;
+  font-family: var(--font-family-mono);
+  font-weight: 700;
+  color: var(--color-gold);
+  text-decoration: none;
+  border: 1px solid var(--border-color);
+  padding: 1px 5px;
+  border-radius: 4px;
+  margin-right: 6px;
+  transition: all 0.2s ease;
+}
+
+.hud-studio-back:hover {
+  border-color: var(--color-gold);
+  background: rgba(255, 215, 0, 0.15);
+}
+
+.nav-studio-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  min-height: 48px;
+  margin-top: 10px;
+}
+
 .hud-app-name {
   font-size: 0.9rem;
   letter-spacing: 2px;
